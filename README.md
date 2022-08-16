@@ -27,42 +27,35 @@ ExpressJS with MVC Architecture, Mongoose, and User Auth. templating engine: Pug
 
 ```
 .
+├── README.md
+├── app.js
 ├── bin
 │   └── www
 ├── controllers
 │   ├── authorController.js
-|   ├── bookController.js
-|   ├── bookinstanceController.js
+│   ├── bookController.js
+│   ├── bookinstanceController.js
 │   └── genreController.js
 ├── models
 │   ├── author.js
 │   ├── book.js
 │   ├── bookinstance.js
 │   └── genre.js
-├── node_modules (not included in repo)
+├── package-lock.json
+├── package.json
+├── populatedb.js
 ├── public
-│   ├── images
-|   |      └── (put_image_here).jpg
-│   ├── javascripts
-│   |       └── (put_javascript_here).js
 │   └── stylesheets
-|           └── (put_style_here).css
+│       └── style.css
 ├── routes
 │   ├── catalog.js
 │   ├── index.js
 │   ├── users.js
 │   └── wiki.js
-├── views
-│   ├── error.pug
-│   ├── index.pug
-│   └── layout.pug
-├── env
-├── .gitignore
-├── app.js
-├── package-lock.json
-├── package.json
-├── populatedb.js
-└── README.md
+└── views
+    ├── error.pug
+    ├── index.pug
+    └── layout.pug
 
-8 directories, 22 files
+7 directories, 22 files
 ```
