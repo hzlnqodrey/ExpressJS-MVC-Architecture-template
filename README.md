@@ -1,4 +1,5 @@
 # local-library
+You don't want to write on Express JS MVC Architecture boilerplate over and over again right? just fork this repo or even download it. Feel Free
 ExpressJS with MVC Architecture, Mongoose, and User Auth. templating engine: Pug. 
 
 ## Table of Contents
