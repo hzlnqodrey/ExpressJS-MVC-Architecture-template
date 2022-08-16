@@ -6,3 +6,42 @@ ExpressJS with MVC Architecture, Mongoose, and User Auth. templating engine: Pug
 
 ## Database Class Diagram Relationship between Collections in MongoDB
 ![image](https://user-images.githubusercontent.com/57006944/184702285-06c0c72d-700a-486d-98ee-b706cb9664f0.png)
+
+## Tree of Codes
+
+```
+.
+├── bin
+│   └── www
+├── controllers
+│   ├── authorController.js
+|   ├── bookController.js
+|   ├── bookinstanceController.js
+│   └── genreController.js
+├── models
+│   ├── author.js
+│   ├── book.js
+│   ├── bookinstance.js
+│   └── genre.js
+├── node_modules (not included in repo)
+├── public
+│   ├── images
+|         └── (put_image_here).jpg
+│   ├── javascripts
+│          └── (put_javascript_here).js
+│   └── stylesheets
+|           └── (put_style_here).css
+├── views
+│   ├── error.pug
+│   ├── index.pug
+│   └── layout.pug
+├── env
+├── .gitignore
+├── app.js
+├── package-lock.json
+├── package.json
+├── populatedb.js
+└── README.md
+
+8 directories, 22 files
+```
