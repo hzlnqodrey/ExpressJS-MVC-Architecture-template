@@ -46,6 +46,11 @@ ExpressJS with MVC Architecture, Mongoose, and User Auth. templating engine: Pug
 │          └── (put_javascript_here).js
 │   └── stylesheets
 |           └── (put_style_here).css
+├── routes
+│   ├── catalog.js
+│   ├── index.js
+│   ├── users.js
+│   └── wiki.js
 ├── views
 │   ├── error.pug
 │   ├── index.pug
